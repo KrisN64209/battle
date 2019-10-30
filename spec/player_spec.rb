@@ -16,12 +16,14 @@ describe Player do
     end
   end
 
+=begin
   describe '#attack' do
     it 'damages the player' do
       expect(mittens).to receive(:receive_damage)
       dave.attack(mittens)
     end
   end
+=end
 
   describe '#receive_damage' do
     it 'reduces the player hit points' do
